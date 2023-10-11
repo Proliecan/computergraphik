@@ -29,7 +29,7 @@ Example task.json:
                 "-lGLU",
                 "-fdiagnostics-color=always",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${workspaceFolder}/out/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"
